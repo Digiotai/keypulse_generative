@@ -45,7 +45,7 @@ jobs:
         aws_secret_key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
         application_name: keypulse_generative
         environment_name: Keypulsegenerative-env
-        version_label: 1236
+        version_label: 123675
         region: "us-east-2"
         deployment_package: deploy.zip
         use_existing_version_if_available: true
